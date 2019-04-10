@@ -122,7 +122,7 @@ def update(t, *args):
 
 ani = animation.FuncAnimation(fig, update, frames = range(nb_simulations), interval = vitesse_simulations  , repeat = False )
 plt.show()
-
+courbes_suivie(carte0)
 
 def courbes_suivi(carte):
     """
